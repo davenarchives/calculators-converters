@@ -2,7 +2,7 @@
  * Numeral systems represent numbers using various symbols or digits and include systems such as binary, decimal, octal, and hexadecimal.
  * The base converter translates a number from one system to another by recalculating its value according to the rules and structure of the target base, 
  * facilitating applications across different fields, such as computing and mathematics, where different numeral systems are commonly used.
-*/
+ */
 
 import java.util.Scanner;
 
