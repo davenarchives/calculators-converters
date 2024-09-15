@@ -1,8 +1,8 @@
 /*
- * The hypotenuse is the longest side of a right-angled triangle, 
- *located opposite the right angle. It is the side that connects the two legs 
- *(the other two sides) of the triangle and is fundamental in the Pythagorean theorem, 
- *which states that the square of the hypotenuse is equal to the sum of the squares of the other two sides. 
+ *The hypotenuse is the longest side of a right-angled triangle, located opposite the right angle. 
+ *It is the side that connects the two legs (the other two sides) of the triangle
+ *and is fundamental in the Pythagorean theorem, which states that the square of the hypotenuse
+ *is equal to the sum of the squares of the other two sides. 
  */
 
 import java.util.Scanner;
