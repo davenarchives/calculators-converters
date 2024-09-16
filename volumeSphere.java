@@ -13,11 +13,11 @@ public class volumeSphere {
         System.out.print("Enter radius: ");
         double radius = scanner.nextDouble();
 
-        double pi = 3.141592653589793238462643383279502884197;
+        final double pi = 3.14159;
 
         double cube = radius*radius*radius;
 
-        double volume = (4.0/3.0)*pi*cube;
+        final double volume = (4.0/3.0)*pi*cube;
 
         System.out.println("The volume of a sphere is: "+volume);
 
