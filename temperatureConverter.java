@@ -26,43 +26,43 @@ public class temperatureConverter {
                 case 1: 
                     System.out.print("Enter the temperature in Celsius: ");
                     double celsius = scanner.nextDouble();
-                    double fahrenheit = 9/5 * (celsius + 32);
-                    System.out.println("Fahrenheit: "+fahrenheit);
+                    final double fahrenheit = (celsius * 9/5) + 32;
+                    System.out.println("Fahrenheit: "+fahrenheit+"°F");
                     System.out.println("\n");
                     break;
                 case 2:
                     System.out.print("Enter the temperature in Fahrenheit: ");
                     double fahrenheitInput = scanner.nextDouble();
-                    double celsiusInput = 5/9 * (fahrenheitInput - 32);
-                    System.out.println("Celcius: "+celsiusInput);
+                    final double celsiusInput = (fahrenheitInput - 32) * 5/9;
+                    System.out.println("Celcius: "+celsiusInput+"°C");
                     System.out.println("\n");
                     break;
                 case 3:
                     System.out.print("Enter the temperature in Celsius: ");
                     double celsiusKelvin = scanner.nextDouble();
-                    double kelvinInput = celsiusKelvin + 273.15;
-                    System.out.println("Kelvin: "+kelvinInput);
+                    final double kelvinInput = celsiusKelvin + 273.15;
+                    System.out.println("Kelvin: "+kelvinInput+"K");
                     System.out.println("\n");
                     break;
                 case 4:
                     System.out.print("Enter the number in Kelvin: ");
                     double kelvinCelsius = scanner.nextDouble();
-                    double celsiusOutput = kelvinCelsius - 273.15;
-                    System.out.println("Celsius: "+celsiusOutput);
+                    final double celsiusOutput = kelvinCelsius - 273.15;
+                    System.out.println("Celsius: "+celsiusOutput+"°C");
                     System.out.println("\n");
                     break;
                 case 5:
                     System.out.print("Enter the number in Fahrenheit: ");
                     double fahrenheitKelvin = scanner.nextDouble();
-                    double kelvinOutput = (fahrenheitKelvin - 32) * 5/9 + 273.15;
-                    System.out.println("Kelvin: "+kelvinOutput);
+                    final double kelvinOutput = (fahrenheitKelvin - 32) * 5/9 + 273.15;
+                    System.out.println("Kelvin: "+kelvinOutput+"K");
                     System.out.println("\n");
                     break;
                 case 6:
                     System.out.print("Enter the number in Kelvin: ");
                     double kelvinFarenheit = scanner.nextDouble();
-                    double fahrenheitOutput = (kelvinFarenheit - 273.15) * 9/5 + 32;
-                    System.out.println("Fahrenheit: "+fahrenheitOutput);
+                    final double fahrenheitOutput = (kelvinFarenheit - 273.15) * 9/5 + 32;
+                    System.out.println("Fahrenheit: "+fahrenheitOutput+"°F");
                     System.out.println("\n");
                     break;
                 default:
